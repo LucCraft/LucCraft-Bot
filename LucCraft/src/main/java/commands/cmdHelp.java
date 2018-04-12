@@ -12,11 +12,9 @@ public class cmdHelp implements Command {
 
     @Override
     public void action(String[] args, MessageReceivedEvent event){
-        event.getTextChannel().sendMessage("Momentane Commands:" +
-                "     /ping      " +
-                "     /help      " +
-                "     /info      " +
-                "     /invite    ").queue();
+        event.getTextChannel().sendMessage("COMMANDLISTE: http://luccraft.de/bot").queue();
+      
+        
     }
 
     @Override
